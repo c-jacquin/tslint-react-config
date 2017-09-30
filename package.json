@@ -1,0 +1,24 @@
+{
+  "name": "@chazzz/tslint-react-config",
+  "version": "1.0.0",
+  "description": "my tslint config",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Jacquin <charles.jacquin@gmail.com>",
+  "repository": {
+    "url": "https://github.com/charjac/tslint-config.git",
+    "type": "git"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.5.0",
+    "tslint-react": "^3.2.0"
+  }
+}

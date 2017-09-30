@@ -1,0 +1,59 @@
+{
+    "extends": ["tslint-react", "tslint-config-prettier"],
+    "rules": {
+        "align": [
+            true,
+            "parameters",
+            "statements",
+            "arguments",
+            "elements",
+            "members"
+        ],
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "jsx-curly-spacing": true,
+        "jsx-no-multiline-js": true,
+        "max-line-length": [
+            false,
+            140
+        ],
+        "member-access": [
+            true,
+            "no-public"
+        ],
+        "no-duplicate-variable": [
+            true,
+            "check-parameters"
+        ],
+        "no-empty": [
+            true,
+            "allow-empty-catch"
+        ],
+        "no-empty-interface": false,
+        "no-inferrable-types": false,
+        "no-require-imports": true,
+        "no-submodule-imports": false,
+        "no-switch-case-fall-through": true,
+        "no-unused-variable": true,
+        "no-use-before-declare": true,
+        "ordered-imports": false,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "semicolon": [
+            true,
+            "never"
+        ],
+        "switch-default": true,
+        "triple-equals": true
+    }
+}
