@@ -38,7 +38,6 @@
         ],
         "no-empty-interface": false,
         "no-inferrable-types": false,
-        "no-require-imports": true,
         "no-submodule-imports": false,
         "no-switch-case-fall-through": true,
         "no-unused-variable": true,
@@ -54,6 +53,13 @@
             "never"
         ],
         "switch-default": true,
-        "triple-equals": true
+        "triple-equals": true,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ]        
     }
 }

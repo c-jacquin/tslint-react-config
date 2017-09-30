@@ -1,11 +1,10 @@
 {
   "name": "@chazzz/tslint-react-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "my tslint config",
   "main": "tslint.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish . --access public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Charles Jacquin <charles.jacquin@gmail.com>",
   "repository": {
